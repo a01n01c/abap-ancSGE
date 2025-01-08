@@ -1,0 +1,8 @@
+@EndUserText.label: 'Servicio de la vista de la tabla reservas'
+define service ZI_Booking_ANC {
+
+
+
+  expose ZI_Booking_ANC as Booking;
+  expose I_Country      as Country;
+}
